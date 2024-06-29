@@ -4,7 +4,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain_community.llms import Ollama
 
 # Initialize Ollama
-llm = Ollama(base_url='http://0.0.0.0:11434', model="mistral")
+llm = Ollama(base_url='http://localhost:11434', model="mistral")
 
 ai_prompt = "Give me 5 ideas for exciting WEB projects with AI in Gradio."
 
